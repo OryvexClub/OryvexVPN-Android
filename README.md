@@ -1,19 +1,19 @@
 <div align="center">
 
-<img src="https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
+<img src="https://img.shields.io/badge/Platform-Windows%2010%2F11-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
 <img src="https://img.shields.io/badge/Status-Stable-success?style=for-the-badge" />
 <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" />
-<img src="https://img.shields.io/badge/UI-Modern%20%7C%20Material%20Design%203-informational?style=for-the-badge" />
+<img src="https://img.shields.io/badge/ENGLISH-informational?style=for-the-badge" />
 
 # 🛡️ OryvexVPN
 
-### Your Digital Freedom, One Click Away — The Free VPN for Android
+### Your Digital Freedom, One Click Away — The Free VPN for Windows
 
 **Private • Secure • Fast • 100% Free**
 
-A modern, privacy-first VPN client for Android, engineered for speed and simplicity — with a beautiful, intuitive interface.
+A modern, privacy-first VPN client for Windows, engineered for speed and simplicity — with a beautiful, intuitive interface.
 
-[📥 Download APK](https://github.com/OryvexClub/OryvexVPN-Android/releases) · [📖 Features](#-features) · [🌐 What is a VPN](#-what-is-a-vpn) · [💬 Support](#-support)
+[📥 Download Now](https://github.com/OryvexClub/OryvexVPN-Android/releases) · [📖 Features](#-features) · [🌐 What is a VPN](#-what-is-a-vpn) · [💬 Support](#-support)
 
 </div>
 
@@ -58,9 +58,9 @@ Your real IP address and location are masked. You browse, stream, and communicat
 - **High uptime** — protection when you need it
 
 ### 🎨 Beautiful, Modern UX
-- **Clean, modern Material Design 3 interface**
+- **Clean, modern dark interface**
 - **Intuitive navigation** — easy to use for everyone
-- **One-tap connect** — no technical knowledge required
+- **One-click connect** — no technical knowledge required
 
 ### 📊 Real-Time Statistics
 - **Live download / upload speeds**
@@ -70,8 +70,8 @@ Your real IP address and location are masked. You browse, stream, and communicat
 
 ### ⚙️ Intelligent & Convenient
 - **Auto-reconnect** — protection never silently drops
-- **Run in background** — stays protected while you use other apps
-- **Start on boot** — launch automatically when your phone starts
+- **System tray** — runs quietly in the background
+- **Start with Windows** — launch on boot
 - **Junk-packet obfuscation** — tuned for restricted networks
 
 ---
@@ -93,8 +93,8 @@ Built on open-source technology. Anyone can inspect the code, which means no bac
 - Real-time connection health monitoring
 - AmneziaWG with junk-packet obfuscation for censored environments
 
-### 📱 Light & Efficient
-Runs comfortably on modest hardware with a minimal footprint and zero noticeable impact on your battery life.
+### 🖥️ Light & Efficient
+Runs comfortably on modest hardware with a minimal footprint and zero noticeable impact on your system.
 
 ---
 
@@ -111,7 +111,7 @@ Runs comfortably on modest hardware with a minimal footprint and zero noticeable
 ## 🔧 How It Works
 
 ```
-    Your Phone        OryvexVPN            Internet
+    Your PC           OryvexVPN            Internet
    ┌─────────┐    ┌─────────────────┐    ┌─────────┐
    │   You   │ ──►│  Secure Tunnel  │ ──►│  The    │
    │ (Device)│    │  (Encrypted)    │    │  Web    │
@@ -133,23 +133,22 @@ Runs comfortably on modest hardware with a minimal footprint and zero noticeable
 
 | Component | Requirement |
 |---|---|
-| Operating System | Android 7.0 (Nougat) or higher |
-| RAM | 2 GB available |
-| Storage | 50 MB free space |
+| Operating System | Windows 10 or 11 (64-bit) |
+| RAM | 256 MB available |
+| Disk Space | 100 MB free |
 | Internet | An active connection |
-| Permissions | VPN permission (requested on first run) |
+| Permissions | Administrator rights (for the VPN driver) |
 
 ### Installation
 
-1. **Download the APK** from the [Releases](https://github.com/OryvexClub/OryvexVPN-Android/releases) page.
-2. **Enable "Install from unknown sources"** in your device settings if prompted.
-3. **Install the APK** and open the app.
-4. **Grant VPN permission** when requested.
-5. **Tap Connect** — you're protected!
+1. **Download the installer** from the [Releases](https://github.com/OryvexClub/OryvexVPN-Android/releases) page.
+2. **Run the installer as Administrator** and follow the setup wizard.
+3. **Launch OryvexVPN** from your desktop or Start menu.
+4. **Click Connect** — you're protected!
 
 ---
 
-## 📱 User Interface
+## 🖥️ User Interface
 
 ```
 ╔══════════════════════════════════════════╗
@@ -176,8 +175,8 @@ Runs comfortably on modest hardware with a minimal footprint and zero noticeable
 ```
 
 **Settings you can tweak**
-- Auto-start on boot
-- Run in background
+- Auto-start with Windows
+- Start minimized to the tray
 - Connection status notifications
 - Automatic reconnection delay
 - Preferred DNS servers
@@ -206,7 +205,7 @@ Runs comfortably on modest hardware with a minimal footprint and zero noticeable
 
 - **Legal use only** — OryvexVPN is designed for lawful privacy and security. Users are responsible for complying with local laws regarding VPN usage.
 - **Performance** — speeds depend on your ISP, distance to the server, server load, and device capability.
-- **Platform** — currently Android only; other platforms are planned.
+- **Platform** — currently Windows 10 and 11 only; other platforms are planned.
 
 ---
 
@@ -214,10 +213,9 @@ Runs comfortably on modest hardware with a minimal footprint and zero noticeable
 
 | Problem | Solution |
 |---|---|
-| VPN won't connect | Grant VPN permission; check your internet; restart the app |
-| Slow speeds | Reconnect; check for ISP throttling; close heavy apps |
-| App crashes | Update Android; clear app cache; reinstall the app |
-| Can't install APK | Enable "Install from unknown sources"; check storage space |
+| VPN won't connect | Run as Administrator; check your internet; restart the app; temporarily disable firewall/antivirus |
+| Slow speeds | Reconnect; check for ISP throttling; close heavy apps; restart your router |
+| App won't start | Update Windows; reinstall; whitelist the app in antivirus; run as Administrator |
 
 ---
 
@@ -242,17 +240,18 @@ Runs comfortably on modest hardware with a minimal footprint and zero noticeable
 - **Provider** — smooth, reactive state management
 - **Material Design 3** — contemporary design language
 - **Cloudflare WARP infrastructure** — enhanced reliability
+- **Inno Setup** — professional Windows installer
 
 ---
 
 ## 🗺️ Roadmap
 
 **Version 1.0 — released** ✅
-- Android support
+- Windows 10 / 11 support
 - Automatic server selection
 - Real-time statistics
-- Modern Material Design 3 UI
-- Background operation & auto-reconnect
+- Modern dark UI
+- System tray & background operation
 
 **Coming next** 🚧
 - Manual server selection
@@ -261,7 +260,7 @@ Runs comfortably on modest hardware with a minimal footprint and zero noticeable
 - Connection history
 
 **On the horizon** 🎯
-- Windows, macOS, and Linux builds
+- Android, macOS, and Linux builds
 - Browser extensions
 - Custom themes
 
