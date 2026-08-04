@@ -1,19 +1,19 @@
 <div align="center">
 
-<img src="https://img.shields.io/badge/Platform-Windows%2010%2F11-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
+<img src="https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
 <img src="https://img.shields.io/badge/Status-Stable-success?style=for-the-badge" />
 <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" />
-<img src="https://img.shields.io/badge/UI-%D9%81%D8%A7%D8%B1%D8%B3%DB%8C%20%7C%20RTL-informational?style=for-the-badge" />
+<img src="https://img.shields.io/badge/UI-Modern%20%7C%20Material%20Design%203-informational?style=for-the-badge" />
 
 # 🛡️ OryvexVPN
 
-### آزادی دیجیتال شما، در یک کلیک — The Free VPN for Windows
+### Your Digital Freedom, One Click Away — The Free VPN for Android
 
 **Private • Secure • Fast • 100% Free**
 
-A modern, privacy-first VPN client for Windows, engineered for speed and simplicity — with a complete Persian (RTL) interface.
+A modern, privacy-first VPN client for Android, engineered for speed and simplicity — with a beautiful, intuitive interface.
 
-[📥 Download Now](https://github.com/OryvexClub/oryvex_vpn_demo/releases) · [📖 Features](#-features) · [🌐 What is a VPN](#-what-is-a-vpn) · [💬 Support](#-support)
+[📥 Download APK](https://github.com/OryvexClub/OryvexVPN-Android/releases) · [📖 Features](#-features) · [🌐 What is a VPN](#-what-is-a-vpn) · [💬 Support](#-support)
 
 </div>
 
@@ -57,10 +57,10 @@ Your real IP address and location are masked. You browse, stream, and communicat
 - **Low-ping routing optimized for your region**
 - **High uptime** — protection when you need it
 
-### 🎨 Beautiful, Persian-First UX
-- **Clean, modern dark interface**
-- **Full RTL support** with the Vazirmatn font
-- **One-click connect** — no technical knowledge required
+### 🎨 Beautiful, Modern UX
+- **Clean, modern Material Design 3 interface**
+- **Intuitive navigation** — easy to use for everyone
+- **One-tap connect** — no technical knowledge required
 
 ### 📊 Real-Time Statistics
 - **Live download / upload speeds**
@@ -70,8 +70,8 @@ Your real IP address and location are masked. You browse, stream, and communicat
 
 ### ⚙️ Intelligent & Convenient
 - **Auto-reconnect** — protection never silently drops
-- **System tray** — runs quietly in the background
-- **Start with Windows** — launch on boot
+- **Run in background** — stays protected while you use other apps
+- **Start on boot** — launch automatically when your phone starts
 - **Junk-packet obfuscation** — tuned for restricted networks
 
 ---
@@ -84,9 +84,6 @@ No hidden fees, no premium tiers, no credit card, no surprise paywalls. Every fe
 ### 🚫 No Registration, No Tracking
 Download, install, and connect. No email, no account, no personal information collected. Your privacy begins the moment the app opens.
 
-### 🇮🇷 Made for Persian Speakers
-A complete, thoughtful Persian interface with proper right-to-left layout and beautiful Vazirmatn typography — not a machine-translated afterthought.
-
 ### 🔓 Open & Transparent
 Built on open-source technology. Anyone can inspect the code, which means no backdoors and no hidden telemetry.
 
@@ -96,8 +93,8 @@ Built on open-source technology. Anyone can inspect the code, which means no bac
 - Real-time connection health monitoring
 - AmneziaWG with junk-packet obfuscation for censored environments
 
-### 🖥️ Light & Efficient
-Runs comfortably on modest hardware with a minimal footprint and zero noticeable impact on your system.
+### 📱 Light & Efficient
+Runs comfortably on modest hardware with a minimal footprint and zero noticeable impact on your battery life.
 
 ---
 
@@ -114,7 +111,7 @@ Runs comfortably on modest hardware with a minimal footprint and zero noticeable
 ## 🔧 How It Works
 
 ```
-    Your PC           OryvexVPN            Internet
+    Your Phone        OryvexVPN            Internet
    ┌─────────┐    ┌─────────────────┐    ┌─────────┐
    │   You   │ ──►│  Secure Tunnel  │ ──►│  The    │
    │ (Device)│    │  (Encrypted)    │    │  Web    │
@@ -136,28 +133,32 @@ Runs comfortably on modest hardware with a minimal footprint and zero noticeable
 
 | Component | Requirement |
 |---|---|
-| Operating System | Windows 10 or 11 (64-bit) |
-| RAM | 256 MB available |
-| Disk Space | 100 MB free |
+| Operating System | Android 7.0 (Nougat) or higher |
+| RAM | 2 GB available |
+| Storage | 50 MB free space |
 | Internet | An active connection |
-| Permissions | Administrator rights (for the VPN driver) |
+| Permissions | VPN permission (requested on first run) |
 
 ### Installation
 
-Download the latest installer from the [Releases](https://github.com/OryvexClub/oryvex_vpn_demo/releases) page, run it, and follow the short setup wizard (administrator privileges are requested once). That's it — no account, no configuration. Open the app and press **Connect**.
+1. **Download the APK** from the [Releases](https://github.com/OryvexClub/OryvexVPN-Android/releases) page.
+2. **Enable "Install from unknown sources"** in your device settings if prompted.
+3. **Install the APK** and open the app.
+4. **Grant VPN permission** when requested.
+5. **Tap Connect** — you're protected!
 
 ---
 
-## 🖥️ User Interface
+## 📱 User Interface
 
 ```
 ╔══════════════════════════════════════════╗
-║               OryvexVPN v1.0.0           ║
+║             OryvexVPN v1.0.0            ║
 ╠══════════════════════════════════════════╣
 ║                                          ║
 ║             [   CONNECT   ]              ║
 ║                                          ║
-║   Status  : قطع شده (Disconnected)      ║
+║   Status  : Disconnected                ║
 ║   Server  : Auto Select                 ║
 ║   IP      : ---                         ║
 ║                                          ║
@@ -175,8 +176,8 @@ Download the latest installer from the [Releases](https://github.com/OryvexClub/
 ```
 
 **Settings you can tweak**
-- Auto-start with Windows
-- Start minimized to the tray
+- Auto-start on boot
+- Run in background
 - Connection status notifications
 - Automatic reconnection delay
 - Preferred DNS servers
@@ -205,7 +206,7 @@ Download the latest installer from the [Releases](https://github.com/OryvexClub/
 
 - **Legal use only** — OryvexVPN is designed for lawful privacy and security. Users are responsible for complying with local laws regarding VPN usage.
 - **Performance** — speeds depend on your ISP, distance to the server, server load, and device capability.
-- **Platform** — currently Windows 10 and 11 only; other platforms are planned.
+- **Platform** — currently Android only; other platforms are planned.
 
 ---
 
@@ -213,9 +214,10 @@ Download the latest installer from the [Releases](https://github.com/OryvexClub/
 
 | Problem | Solution |
 |---|---|
-| VPN won't connect | Run as Administrator; check your internet; restart the app; temporarily disable firewall/antivirus |
-| Slow speeds | Reconnect; check for ISP throttling; close heavy apps; restart your router |
-| App won't start | Update Windows; reinstall; whitelist the app in antivirus; run as Administrator |
+| VPN won't connect | Grant VPN permission; check your internet; restart the app |
+| Slow speeds | Reconnect; check for ISP throttling; close heavy apps |
+| App crashes | Update Android; clear app cache; reinstall the app |
+| Can't install APK | Enable "Install from unknown sources"; check storage space |
 
 ---
 
@@ -229,7 +231,6 @@ Download the latest installer from the [Releases](https://github.com/OryvexClub/
 | Ads | None | Heavy advertising |
 | Registration | Not required | Email required |
 | Logging | No logs | Often logs data |
-| Persian UI | Complete | Rarely available |
 | Open source | Yes | Usually closed |
 
 ---
@@ -241,19 +242,17 @@ Download the latest installer from the [Releases](https://github.com/OryvexClub/
 - **Provider** — smooth, reactive state management
 - **Material Design 3** — contemporary design language
 - **Cloudflare WARP infrastructure** — enhanced reliability
-- **Vazirmatn font** — polished Persian typography
-- **Inno Setup** — professional Windows installer
 
 ---
 
 ## 🗺️ Roadmap
 
 **Version 1.0 — released** ✅
-- Windows 10 / 11 support
+- Android support
 - Automatic server selection
 - Real-time statistics
-- Persian UI with RTL
-- System tray & background operation
+- Modern Material Design 3 UI
+- Background operation & auto-reconnect
 
 **Coming next** 🚧
 - Manual server selection
@@ -262,7 +261,7 @@ Download the latest installer from the [Releases](https://github.com/OryvexClub/
 - Connection history
 
 **On the horizon** 🎯
-- Android, macOS, and Linux builds
+- Windows, macOS, and Linux builds
 - Browser extensions
 - Custom themes
 
@@ -271,8 +270,8 @@ Download the latest installer from the [Releases](https://github.com/OryvexClub/
 ## 💬 Support
 
 - 📧 **Email** — sh4es89h4es98_43678@vexomail.xyz
-- 🐛 **Report a bug** — [GitHub Issues](https://github.com/OryvexClub/oryvex_vpn_demo/issues)
-- 💡 **Request a feature** — [GitHub Issues](https://github.com/OryvexClub/oryvex_vpn_demo/issues)
+- 🐛 **Report a bug** — [GitHub Issues](https://github.com/OryvexClub/OryvexVPN-Android/issues)
+- 💡 **Request a feature** — [GitHub Issues](https://github.com/OryvexClub/OryvexVPN-Android/issues)
 
 ---
 
@@ -296,9 +295,9 @@ If OryvexVPN helps you, a star is the simplest way to help others find it — an
 
 ---
 
-**ساخته شده با ❤️ توسط تیم OryvexVPN**
+**Built with ❤️ by the OryvexVPN Team**
 
-**حریم خصوصی شما، آزادی شما، VPN شما.**
+**Your Privacy. Your Freedom. Your VPN.**
 
 *© 2026 OryvexVPN. All rights reserved.*
 
