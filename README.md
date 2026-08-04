@@ -13,7 +13,7 @@
 
 A modern, privacy-first VPN client for Windows, engineered for speed and simplicity — with a beautiful, intuitive interface.
 
-[📥 Download Now](https://github.com/OryvexClub/OryvexVPN-Android/releases) · [📖 Features](#-features) · [🌐 What is a VPN](#-what-is-a-vpn) · [💬 Support](#-support)
+[📥 Download Now](https://github.com/OryvexClub/OryvexVPN-Android/releases) · [📖 Features](#-features) · [🌐 What is a VPN](#-what-is-a-vpn) 
 
 </div>
 
